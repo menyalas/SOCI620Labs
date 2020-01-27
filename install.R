@@ -1,0 +1,8 @@
+install.packages("rstan")
+install.packages("coda")
+install.packages("mvtnorm")
+install.packages("devtools")
+install.packages("loo")
+library(devtools)
+devtools::install_github("rmcelreath/rethinking")
+library(rethinking)
